@@ -1,0 +1,51 @@
+/*
+.box {
+	background: url("../images/bg.gif");
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 800px;
+}
+*/
+
+/*
+.logo {
+	background: url("../images/logo.png") no-repeat center;
+	display: block;
+	height: 90px;
+	width: 280px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+*/
+
+.square {
+	height: 200px;
+	width: 200px;
+	background: gray;
+}
+
+.bar {
+	height: 200px;
+	background: darkgray;
+	/*clear: both;*/
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix {
+		border: 10px solid green;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}

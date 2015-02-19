@@ -1,0 +1,204 @@
+.box {
+	
+}
+
+header {
+	background-size: 100%;
+	background: #222 url("../images/header.jpg") no-repeat center;
+	background-size: cover;
+	padding: 150px 0 125px;
+	text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 620px;
+}
+
+.container_big {
+  margin: 0 auto;
+  width: 950px;
+}
+
+div {
+	display: block;
+}
+
+.middle {
+	background-color: #AC8420;
+	background-size: 100%;
+	padding: 50px 0 125px;
+}
+
+.lower {
+	clear: both;
+	overflow: hidden;
+	padding: 100px 0;
+	width: 100%;
+}
+
+
+h1,
+h2,
+h3 {
+	font-family: "Sanchez", serif;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 60px;
+	color: #fff;
+	margin: 40 0 20px;
+	font-weight: normal;
+}
+
+h2,
+h3 {
+	color: #222;
+}
+
+h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 26px;
+}
+
+p,
+li {
+	font-family: 'Lato', sans-serif;
+}
+
+.intro {
+	color: #ccc;
+	font-size: 22px;
+	margin: 20px 0 0;
+	line-height: 1.8;
+}
+
+
+li {
+	color: #fff;
+	font-size: 16px;
+	display: inline-block;
+	width: 24.5%;
+	padding: 0;
+}
+
+ul {
+list-style-type: none;	
+margin: 0;
+padding: 0;
+}
+
+.clearfix:after {
+		content: '';
+		clear: both;
+		display: block;
+}
+
+.menu_item {
+		border-bottom: 2px solid #9B761C;
+		margin: 0;
+		padding: 10px 0 15px;
+}
+
+.menu_price {
+		color: #DECC9C;
+		float: right;
+}
+
+.split_left,
+.split_right {
+		width: 48%;
+}
+
+.split_left {
+		float: left;
+}
+
+.split_right {
+		float: right;
+}
+
+.menu_last {
+		border: none;
+}
+
+figure {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 100%;
+}
+
+.location {
+	float: left;
+	width: 48%;
+	display: block;
+}
+
+.line_space {
+	line-height: 1.8;
+}
+
+.address {
+	line-height: .5;
+}
+
+button {
+		color: #AC8420;
+		border: 2px solid #AC8420;
+		display: inline-block;
+		line-height: 1;
+		margin: 10px 0;
+		padding: 15px 25px 17px;
+		text-decoration: none;
+}
+
+footer {
+	height: 200px;
+	background-color: #222;
+	padding: 60px 0;
+}
+
+.logo_small {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.copyright {
+	float: left;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+    padding: 0;
+}
+
+.social_media {
+	float: right;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+    padding: 0;
+}
+
+.sm_span {
+	float: right;
+	display: block;
+	width: 110px;
+   	margin: 0;
+    padding: 0;
+}
+
+.sm_span_last {
+	float: right;
+	display: block;
+   	margin: 0;
+    padding: 0;
+}
